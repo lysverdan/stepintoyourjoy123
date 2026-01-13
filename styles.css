@@ -225,16 +225,12 @@ a:hover {
 
 .hero {
     position: relative;
-    height: 350px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    height: 450px;
     background-image: url('images/Banner_Step_into_your_Joy.jpeg');
     background-size: cover;
-    background-position: center center;
+    background-position: center 30%;
     background-repeat: no-repeat;
     overflow: hidden;
-    padding-bottom: var(--spacing-md);
 }
 
 /* Overlay for text readability */
@@ -327,6 +323,16 @@ a:hover {
 .secondary-button:hover {
     background: var(--primary);
     color: var(--white);
+}
+
+/* Hero CTA Section - Button below banner */
+.hero-cta-section {
+    background: linear-gradient(180deg, #d4e9f0 0%, #e8f4f8 100%);
+    padding: var(--spacing-md) 0;
+}
+
+.hero-cta-wrapper {
+    text-align: center;
 }
 
 /* ===========================
@@ -686,7 +692,7 @@ a:hover {
     }
     
     .hero {
-        height: 300px;
+        height: 350px;
     }
     
     .steps-grid {
