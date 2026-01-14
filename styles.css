@@ -1717,6 +1717,104 @@ a:hover {
 }
 
 /* ===========================
+   INTUITIVE CONSULTATIONS PAGE STYLES
+   =========================== */
+
+.results-highlight-box {
+    max-width: 900px;
+    margin: var(--spacing-xl) auto;
+    padding: var(--spacing-lg);
+    background: linear-gradient(135deg, #f5f9fa 0%, #e8f4f8 100%);
+    border-radius: 8px;
+    border-left: 4px solid var(--primary);
+}
+
+.results-highlight-box p {
+    line-height: 1.8;
+    margin-bottom: var(--spacing-md);
+}
+
+.results-highlight-box p:last-child {
+    margin-bottom: 0;
+}
+
+.results-highlight-box strong {
+    color: var(--primary-dark);
+    font-size: 1.1rem;
+}
+
+.consultation-testimonial {
+    max-width: 900px;
+    margin: var(--spacing-xl) auto;
+    text-align: center;
+}
+
+.consultation-testimonial h2 {
+    color: var(--primary-dark);
+    margin-bottom: var(--spacing-lg);
+}
+
+.testimonial-featured {
+    background: var(--white);
+    padding: var(--spacing-lg);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(91, 154, 169, 0.12);
+    border-left: 4px solid var(--primary);
+    text-align: left;
+}
+
+.testimonial-featured p {
+    line-height: 1.8;
+    margin-bottom: var(--spacing-md);
+}
+
+.testimonial-featured cite {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    color: var(--primary-dark);
+    font-style: italic;
+    text-align: right;
+    margin-top: var(--spacing-lg);
+}
+
+.details-section {
+    max-width: 800px;
+    margin: var(--spacing-xl) auto;
+    text-align: center;
+}
+
+.details-section h2 {
+    color: var(--primary-dark);
+    margin-bottom: var(--spacing-md);
+}
+
+.details-section p {
+    line-height: 1.8;
+    margin-bottom: var(--spacing-md);
+}
+
+.final-cta {
+    max-width: 700px;
+    margin: var(--spacing-xl) auto;
+    padding: var(--spacing-xl);
+    background: linear-gradient(135deg, #e8f4f8 0%, #d4e9f0 100%);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.final-cta h2 {
+    color: var(--primary-dark);
+    margin-bottom: var(--spacing-md);
+}
+
+.final-cta p {
+    margin-bottom: var(--spacing-lg);
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* ===========================
    ANIMATIONS
    =========================== */
 
